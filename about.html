@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/brand icon.JPG"
+      type="image/x-icon"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class= "sub-header">
+        <nav>
+            <a href="index.html"><img src="images/brand icon.JPG"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="projects.html">PROJECTS</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        
+        </nav>
+        <h1> About Us</h1>
+    </section>
+    <!-----------------about us section-->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are an agri-business consulting firm based in Nairobi</h1>
+          <p>
+            Munda is an agri-business consulting firm based in Nairobi We
+                specialize in unlocking sustainable returns for all players across the
+                agro-forestry value chain at radicallyfast turn around time. In 2020,
+                we started Munda to overturn the disparate, outdated agro-forestry
+                models of old. Empowered by our incubation into the Kenya Climate
+                Innovation Centre (KCIC) in its firstCommercial Forestry cohort, our
+                unique aggregator model sets us apart from similar offers currently
+                available in the market. </p>
+                <a href=""class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+          <h2> Our working pillars</h2>
+          <img src="images/Workingpillars.JPG"
+        </div>
+        <div class="about-col">
+          <h2> Our collaborative model</h2>
+          <img src="images/Collaborative approach.JPG"
+        </div>
+      </div>
+    </section>
+    
+   
+        </div>
+    </section>
+    <!---------partners------------>
+    <section class="the-team">
+        <h1> Our Co-founders</h1>
+        <div class="rows">
+            <div class="founders-col">
+             <h3>Abdul, Co-founder, CEO</h3>
+             <p>Abdulaziz Gakuria took an entrepreneurial bend to his life,<br>
+               and has cut his mettle in the “school of hard Knocks” in the city of Nairobi.<br>
+Abdulazizhad been harvesting from government forests,<br>
+ through tenders awarded by Kenya Forest Services.<br>
+  His exposure to Kenya’s forestry industry was particularly insightful<br>
+   having harvested timber and poles in Kenyan forests the length and breadth of the country.<br>
+    In fact among the last major engagement with the government is when he was awarded the bush clearing contract<br>
+     in Mivumoniarea of Kwale precedent to Base Titanium commencing the Dam construction and Titanium mining thereon
+
+             </p>
+                </div>
+                <div class="founders-col">
+                  <h3>Paul, Co-founder, Director</h3>
+                  <p>Paul is an Entrepreneur and Business Development,<br> ExternalAffairs, and Public Stakeholder Engagement Consultant in African Markets.<br>
+                    He has extensive experience in both Public and Private <br>SectorProjects namely in Distribution and Marketing within Commercial FMCG,<br> Urban And Physical Planning Projects,National and Physical Addressing Systems,<br> Strategic Planning, and Entrepreneurship Projects.<br>
+                    Paul has worked and lived in Uganda, Tanzania, Madagascar, Ghana, Nigeria, and Kenya.<br> He serves as a director in several local firms.
+     
+                  </p>
+                     </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+<!------------footer-->
+<section class=" footer">
+    <div class="subscribe">
+        <h2> Stay up to date with all the Munda Rural services news</h2>
+        <form action="" class="subscribe-box">
+      <input required type= "email" name = "email" placeholder="Enter your email address"/>
+      <button>Submit</button>
+    </form>
+    <div class="social-medias">
+        <h3>We are also available on social media</h3>
+        <ul>
+          <li>
+            <a href="https://web.facebook.com/mundarural/?_rdc=1&_rdr"
+              ><i class="fa fa-facebook"></i>Facebook</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/i/flow/login?redirect_after_login=%2Fmundarural"
+              ><i class="fa fa-twitter"></i>Twitter</a
+            >
+          </li>
+          <li>
+            <a href="https://www.instagram.com/mundarural/"
+              ><i class="fa fa-instagram"></i>Instagram</a
+            >
+          </li>
+          <li>
+            <a href="0792572728"><i class="fa fa-whatsapp"></i>whatsapp</a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/abdulaziz-gakuria-ba318a6b/?originalSubdomain=ke"
+              ><i class="fa fa-linkedin"></i>Linkedin</a
+            >
+          </li>
+        </ul>
+      </div>
+      </div>
+      <div class="copyright">
+        &copy;2023 All rights reserved by Munda Rural services ltd.
+      </div>
+</section>
+
+    <!------JAvascript for toogle menu-------------->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
